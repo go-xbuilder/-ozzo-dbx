@@ -1,0 +1,15 @@
+alias:
+  emptyValue: "isempty"
+  notEmptyValue: "isnotempty"
+  nullValue: "isnull"
+  notNullValue: "isnotnull"
+resources:
+  user:
+    where:
+      id: "eq"
+      name: "eq"
+      address: "like"
+    orderFields:
+      - "id"
+      - "created_at"
+      - "updated_at"
